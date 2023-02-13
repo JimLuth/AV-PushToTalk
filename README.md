@@ -4,7 +4,7 @@ A/V Push-to-Talk AutoHotKey script for Video Conference apps (Zoom, MS Teams, Go
 
 ## Motivation
 
-I spend hours in video conferences and wanted to have a global key assigned the would in unison toggle my mic and camera on and off no matter which window had the focus.  I also wanted this to work optionally in "push-to-talk" mode where pressing the key down performs one toggle and letting the key up performs the toggle again.
+I spend hours in video conferences and wanted to have a global key assigned that would in unison toggle my mic and camera on and off no matter which window had the focus.  I also wanted this to work optionally in "push-to-talk" mode where pressing the key down performs one toggle and letting the key up performs the toggle again.
 
 ## Prerequisites
 
