@@ -30,7 +30,7 @@ The script currently works with the following video conferencing services  both 
 
 ## How to use
 
-1. Make sure the sript installed and running as described above.
+1. Make sure the script installed and running as described above.
 
 2. Start a video conference using one the the supported services.
 
