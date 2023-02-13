@@ -24,7 +24,7 @@ The script currently works with the following video conferencing services  both 
 
 ## Installation
 
-1. Install [AutoHotKey v2.0]([AutoHotkey](https://www.autohotkey.com/)).
+1. Install AutoHotkey v2.0 from https://www.autohotkey.com/.
 
 2. Download `AV-PTT.ahk` from this repository and double click it to load the script into AutoHotKey.
 
@@ -36,10 +36,10 @@ The script currently works with the following video conferencing services  both 
 
 3. Make sure the camera and mic are either both on/unmuted or off/muted.
 
-4. Click the mouse in the meeting window to be sure it is the active window and press the`Shift` - `Esc` key combination.  You should hear two beeps if the window is recognized as a supported video conference service. You need to repeat this step wheneve you start or join a meeting.
+4. Click the mouse in the meeting window to be sure it is the active window and press the `Shift` - `Esc` key combination.  You should hear two beeps if the window is recognized as a supported video conference service. You need to repeat this step wheneve you start or join a meeting.
 
-5. Now clicking the `Esc`key will toggle the mic and camera on or off in unison. Note that the Esc key will perform the toggle no matter which window is active (i.e. the hotkey is global).
+5. Now clicking the `Esc` key will toggle the mic and camera on or off in unison. Note that the Esc key will perform the toggle no matter which window is active (i.e. the hotkey is global).
 
 6. Alternatively you can hold the `Esc` key down in push-to-talk mode and the mic and camera will toggle again when the key is released.
 
-If you need to regain the use of the Esc key by other applications, you can temporarily disable the script by choosing "Pause Script" from the AutoHotKey right-click menu in the tooltray.
+If you need to regain the use of the `Esc` key by other applications, you can temporarily disable the script by choosing "Pause Script" from the AutoHotKey right-click menu in the tooltray.
