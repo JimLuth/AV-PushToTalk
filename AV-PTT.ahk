@@ -12,14 +12,14 @@ Esc::
 {
 	if WinExist( {Hwnd: ActiveHwnd} )
 	{
-		SoundBeep
 		SaveHwnd := WinExist("A")
 		MinMax := WinGetMinMax({Hwnd: ActiveHwnd})
 		WinActivate {Hwnd: ActiveHwnd}
 		WinWaitActive {Hwnd: ActiveHwnd}
+		ControlClick {Hwnd: ActiveHwnd},,,"MIDDLE"  ; click the mouse in the window to really set the focus - needed for Teams in a browser
 	
 		SendEvent CurrentKeys
-		
+		SoundBeep
 		Sleep 100
 		if( GetKeyState("Esc") )
 		{
